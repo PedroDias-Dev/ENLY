@@ -11,22 +11,6 @@ import MainSprites from '../../img/main-sprites-example.png'
 
 const Main = () => {
     return (
-        // <div className="main">
-        //     <div class="flex justify-center ...">
-        //         <div class="container mx-auto 2xl">
-        //             <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
-        //             Hello<br/>
-        //             World
-        //             </span>
-        //             <p>SLOGAN SLOGAN LOREM LOREM LOFERM</p>
-
-        //             <div class="box-border h-32 w-72 p-4 border-4 ...">
-        //                 <button className="start">START</button>
-        //                 <button className="help">HOW TO PLAY</button>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
         <div class="h-screen pb-14 bg-right bg-cover" style={{backgroundColor: "black"}}> 
             
             <div class="w-full container mx-auto p-6">
@@ -41,10 +25,10 @@ const Main = () => {
                     <h1 class="my-4 text-3xl md:text-5xl text-purple-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">ENLY</h1>
                     <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle text-white">Sub-hero message, not too long and not too short. Make it just right!</p>
                 
-                    <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">Star playing now:</p>
+                    <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">Start playing now:</p>
                     <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-                        <button class="transition ease-in-out delay-150 bg-purple-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-blue-500 h-12 font-bold bounce-top-icons py-1 px-9 text-slate-100 rounded">START</button>
-                        <button class="transition ease-in-out delay-150 bg-purple-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-blue-500 h-12 font-bold bounce-top-icons py-1 px-9 mx-10 text-slate-100 rounded">HOW TO PLAY</button>
+                        <a href="/game/character"><button class="transition ease-in-out delay-150 bg-purple-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-blue-500 h-12 font-bold bounce-top-icons py-1 px-9 text-slate-100 rounded">START</button></a>
+                        <a href="/guide"><button class="transition ease-in-out delay-150 bg-purple-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-blue-500 h-12 font-bold bounce-top-icons py-1 px-9 mx-10 text-slate-100 rounded">HOW TO PLAY</button></a>
                     </div>
         
                 </div>
