@@ -1,9 +1,11 @@
 import React from "react";
 
 const Game = () => {
+
     return (
-        <div>
-        <h1>Game</h1>
+        <div className="game-container">
+            <canvas className="game-canvas" width="800" height="600"></canvas>
+            <script src="../../game/init.js"></script>
         </div>
     );
 }
