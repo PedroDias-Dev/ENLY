@@ -1,7 +1,4 @@
-import Sprite from "./sprite/Sprite";
-import OverworldEvent from "./overworld/OverworldEvent";
-
-export default class GameObject {
+class GameObject {
   constructor(config) {
     this.id = null;
     this.isMounted = false;

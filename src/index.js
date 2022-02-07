@@ -8,7 +8,7 @@ import AppRoutes from './routes';
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
-  <Game />,
+  <AppRoutes />,
   rootElement
 );
 

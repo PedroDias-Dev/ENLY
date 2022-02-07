@@ -1,13 +1,14 @@
 import React from "react";
 
+var __html = require('../../game/index.html');
+var template = { __html: __html };
+
+
 const Game = () => {
 
     return (
-        <div className="game-container">
-            <canvas className="game-canvas" width="800" height="600"></canvas>
-            <script src="../../game/init.js"></script>
-        </div>
-    );
+        <div dangerouslySetInnerHTML={template} />
+    )
 }
 
 export default Game;
